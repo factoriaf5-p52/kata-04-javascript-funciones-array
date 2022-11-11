@@ -14,7 +14,6 @@ La solucion proviene del testing. El testing nos ayuda a mantener la calidad de 
 
 ### Instrucciones de uso
 
-- Realiza un "Fork" del proyecto a tu repositorio GitHub.
 - Clona el proyecto en tu entorno de programació local.
 
   La estructura del código del ejercicio consiste en:
@@ -46,7 +45,7 @@ Cuando se programa con tests es muy importante leer y entender los errores que d
 ## Entrega
 
 - Sube los cambios a tu repositorio GitHub.
-- Cuando hayas pasado todos los tests realiza un [pull-request](https://docs.github.com/es/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork) del ejercicio.
+
 
 
 ## Iteraciones
@@ -60,7 +59,7 @@ Define una función `maxOfTwoNumbers` que tome dos números como argumentos y de
 Escribe una función `findLongestWord` que tome un array de palabras y devuelva la más larga. Si hay 2 con la misma longitud, debería devolver la primera.
 
 
-**Código de partida**
+**Puedes usar el siguiente array para probar tu función**
 
 ```javascript
 let words = [
@@ -78,27 +77,27 @@ let words = [
 
 Itera sobre un array sumando cada elemento.
 
-Semanticamente [reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce) es el mejor método para hacer esta operación, aunque se puede utilizar cualquier tipo de bucle de los que hemos visto.
 
-Crea una función `sumArray` que tome un array de números como parámetro y calcule la suma de todos sus miembros:
+Crea una función `sumArray` que tome un array de números como parámetro y calcule la suma de todos sus miembros
 
-**Código de partida**
+**Puedes usar el siguiente array para probar tu función**
 
 ```javascript
 let numbers = [6, 12, 1, 18, 13, 16, 2, 1, 8, 10];
 ```
+Bonus track.
+Semanticamente [reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce) es el mejor método para hacer esta operación. Podrás rehacer el código utilizando el método reduce ?
 
 ### 4. Calcula la media aritmética
 
-Para ello sigue el siguiente algoritmo:
-
-1. Utiliza la suma del ejercicio anterior y divídela por el número de elementos.
+Para ello, utiliza la función suma del ejercicio anterior aplicando la división por el número de elementos.
 
 #### 4.1: Array de Números
 
 Escribe una función `averageNumbers` que reciba un array de números y calcule la media de los números:
 
-**Código de partida**
+**Puedes usar el siguiente array para probar tu función**
+
 
 ```javascript
 let numbers = [2, 6, 9, 10, 7, 4, 1, 9];
@@ -108,7 +107,7 @@ let numbers = [2, 6, 9, 10, 7, 4, 1, 9];
 
 Escribe una función `averageWordLength` que reciba un array de palabras y calcule la media de la longitud de las palabras:
 
-**Código de partida**
+**Puedes usar el siguiente array para probar tu función**
 
 ```javascript
 let words = [
@@ -127,11 +126,13 @@ let words = [
 
 ### 5. Unique Arrays
 
-Coge el siguiente array, elimina los duplicados y devuelve un nuevo array. Si lo necesitas consulta la función [`indexOf`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf).
+Realiza este ejercicio como una función `uniquifyArray` que reciba un array de palabras como parámetro.
 
-Realiza este ejercicio como una fución `uniquifyArray` que reciba un array de palabras como parámetro.
+La función debe eliminar los duplicados y devolver el resultado como un nuevo array.
 
-**Código de partida**
+Si lo necesitas consulta la función [`indexOf`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf).
+
+**Puedes usar el siguiente array para probar tu función**
 
 ```javascript
 let words = [
@@ -152,9 +153,9 @@ let words = [
 
 ### 6. Busca elementos
 
-Escribe una función `doesWordExist` que reciba un array de palabras como argumento y una palabra para buscar dentro del array. Devuelve `true` si existe, sino devuelve `false`. **No** utilices `indexOf` en este caso.
+Escribe una función `doesWordExist` que reciba un array de palabras como argumento y una palabra para buscar dentro del array. Devuelve `true` si existe y si no, devuelve `false`. **No** utilices `indexOf` en este caso.
 
-**Código de partida**
+**Puedes usar el siguiente array para probar tu función**
 
 ```javascript
 let words = [
@@ -171,9 +172,9 @@ let words = [
 
 ### 7. Cuenta repeticiones
 
-Escribe una función `howManyTimes` que tome un array de palabras como argumento y una palabra para buscar. La función devolverá el número de veces que una palabra aparece en el array.
+Escribe una función `howManyTimes` que tome dos argumentos: un array de palabras y una palabra para buscar dentro del array. La función devolverá el número de veces que una palabra aparece en el array.
 
-**Código de partida**
+**Puedes usar el siguiente array para probar tu función**
 
 ```javascript
 let words = [
